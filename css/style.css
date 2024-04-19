@@ -70,6 +70,7 @@ ul {
 
 .about-me {
     margin-top: 10px;
+    text-align: center;
     }
 
 img {
@@ -154,45 +155,15 @@ button#prev {
     font-weight: 400;
     text-align: right;
     }
-
-
-
-
-
-
-
-
-@media  (max-width: 980px) {
-    img {
-        margin: 20px auto;
-        width: 250px;
-        height: 250px;
-        display: block;
-        }
-    i {
-        padding-left: 10px;
-    }
-
-    .profile-list {
-      text-align: right;
-      text-align: center;
-      margin-top: 0px;
-        }
-
-    /* .testimonial-container p {
-        font-size: 20px;
-
-        } */
-    }
          
 a {
     text-decoration: none;
     color: black
-  }
+    }
 
 a:hover {
     color: rgb(231, 200, 233)
-  }
+    }
 
      
 button {
@@ -224,6 +195,19 @@ button:hover {
     }
       
 
-
+@media  (max-width: 980px) {
+    img {
+        margin: 20px auto;
+        width: 250px;
+        height: 250px;
+        display: block;
+        }
+    
+    .profile-list {
+        text-align: right;
+        text-align: center;
+        margin-top: 0px;
+        }
+    }
 
   
