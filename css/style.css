@@ -17,14 +17,16 @@ h1 {
     }    
 
 h2 {
-    color: rgb(221, 163, 225);
+    color: rgb(218, 119, 183);
     padding-top: 5px;
+    font-family: serif;
     text-align: center;
     }
 
 h3 {
-    color: rgb(221, 163, 225);
+    color: rgb(218, 119, 183);
     padding-top: 5px;
+    
     }
 
 h4 { 
@@ -45,11 +47,11 @@ p {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.8px;
-    
     }
 
 ul {
     padding-left: 35px;
+    padding-top: 5px;
     }
 
 .profile-info {
@@ -70,7 +72,6 @@ ul {
 
 .about-me {
     margin-top: 10px;
-    text-align: center;
     }
 
 img {
@@ -136,7 +137,6 @@ button#prev {
 
 .testimonial-container p {
     color: #414142;
-    text-align: center;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.8px;
@@ -162,7 +162,7 @@ a {
     }
 
 a:hover {
-    color: rgb(231, 200, 233)
+    color: rgb(218, 119, 183)
     }
 
      
