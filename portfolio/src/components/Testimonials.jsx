@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import './Testimonials.scss';
+import 'src/components/Testimonials.scss';
 
 const testimonials = [
   {

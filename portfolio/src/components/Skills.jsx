@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import './Skills.scss';
+import 'src/components/Skills.scss';
 import { motion } from 'framer-motion';
 
 const skills = [

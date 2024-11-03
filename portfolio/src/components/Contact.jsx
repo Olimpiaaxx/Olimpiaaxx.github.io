@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
-import './Contact.scss';
+import 'src/components/Contact.scss';
 
 export const Contact = () => {
   return (

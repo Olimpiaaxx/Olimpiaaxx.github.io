@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './Modal.scss';
+import 'src/components/Modal.scss';
 
 function Modal({ project, onClose }) {
   return (
