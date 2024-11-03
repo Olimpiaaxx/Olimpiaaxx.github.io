@@ -2,7 +2,7 @@ import React, {useRef, useEffect} from 'react';
 import Typed from 'typed.js';
 import { Link } from 'react-router-dom';
 import { FaLinkedin, FaDownload } from 'react-icons/fa';
-import 'src/components/Header.scss';
+import './Header.scss';
 
 export const Header = () => {
 
@@ -28,7 +28,7 @@ export const Header = () => {
       <h2 className="typed-text">
         <span ref={typedElement}></span>
       </h2>
-      <img src={require('src/assets/cartoon-me.jpg')} />
+      <img src={require('../assets/cartoon-me.jpg')} />
 
       <nav>
         <Link to="/">About</Link>
@@ -39,7 +39,7 @@ export const Header = () => {
       </nav>
       <div className="social-icons">
         <a href="https://www.linkedin.com/in/olimpiapater" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href={require('src/assets/Olimpia-Pater-CV.pdf')} target="_blank" rel="noopener noreferrer"><FaDownload /></a>
+        <a href={require('../assets/Olimpia-Pater-CV.pdf')} target="_blank" rel="noopener noreferrer"><FaDownload /></a>
       </div>
     </header>
   );

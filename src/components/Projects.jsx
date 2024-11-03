@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { motion } from 'framer-motion';
-import 'src/components/Projects.scss';
-import Modal from 'src/components/Modal';
+import './Projects.scss';
+import Modal from './Modal';
 
 const projectsData = [
   {

@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Header } from 'src/components/Header';
-import { About } from 'src/components/About';
-import { Projects } from 'src/components/Projects';
-import { Skills } from 'src/components/Skills';
-import { Contact } from 'src/components/Contact';
-import { Testimonials } from 'src/components/Testimonials';
+import { Header } from './components/Header';
+import { About } from './components/About';
+import { Projects } from './components/Projects';
+import { Skills } from './components/Skills';
+import { Contact } from './components/Contact';
+import { Testimonials } from './components/Testimonials';
 
 export const App =() => {
   return (
