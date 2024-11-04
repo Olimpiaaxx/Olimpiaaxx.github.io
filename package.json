@@ -1,6 +1,7 @@
 {
 "homepage": "https://Olimpiaaxx.github.io/Olimpiaaxx.github.io",
 "name": "portfolio",
+"type": "module",
 "version": "0.1.0",
 "private": true, 
 "dependencies": { 
