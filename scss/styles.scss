@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #f4cce1;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -576,7 +576,7 @@ footer {
     -------------------------------
 */
 
-#education {
+#education, #certificates {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
@@ -887,7 +887,7 @@ footer {
         top: auto;
 
         h1 {
-            font-size: 3em;
+            font-size: 2em;
         }
 
         h2 {
